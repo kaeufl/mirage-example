@@ -1,4 +1,4 @@
-export default function() {
+export default function () {
 
   // These comments are here to help you get started. Feel free to delete them.
 
@@ -23,6 +23,8 @@ export default function() {
 
     http://www.ember-cli-mirage.com/docs/v0.3.x/shorthands/
   */
- this.get('users');
- this.get('users/:id');
+  this.logging = true;
+  this.get('users');
+  this.get('users/:id');
+  this.get('things/:id');
 }
