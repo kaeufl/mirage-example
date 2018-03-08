@@ -1,0 +1,9 @@
+<h2>User</h2>
+
+Name: {{model.name}}
+
+{{#each model.things as |thing|}}
+  <p>Thing: {{thing.title}}</p>
+{{/each}}
+
+{{outlet}}
